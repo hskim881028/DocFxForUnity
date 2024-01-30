@@ -6,14 +6,11 @@ on:
       - main
 
 jobs:
-  # Build the documentation
   build:
     runs-on: windows-latest # Required by DocFX
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        # with:
-        #   submodules: true
 
       - name: Install DocFX
         run: choco install -y docfx
@@ -24,32 +21,32 @@ jobs:
       - name: Build
         run: docfx Documentation/docfx.json
 
-      # Upload the generated documentation
       - name: Upload site artifact
         uses: actions/upload-artifact@v1
         with:
           name: _site
-          path: _site # Must equals the 'build.dest' value on your docfx.json
+          path: _site
 
-  # Deploy the generated documentation to the gh-pages branch
-  deploy:
+  deploy-docfx-test:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout docfx-test Repository
         uses: actions/checkout@v2
-        # with:
-        #   submodules: true
+        with:
+          repository: hskim881028/docfx-test
+          token: ${{ secrets.PAT }} # 여기서 PAT는 당신이 생성한 개인 접근 토큰
 
-      # Download the generated documentation
       - name: Download site artifact
         uses: actions/download-artifact@v1
         with:
           name: _site
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: _site
+      - name: Deploy to docfx-test Repository
+        run: |
+          cp -r _site/* . # _site 폴더의 내용을 루트 디렉토리로 복사
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Deploy DocFX Site"
+          git push
