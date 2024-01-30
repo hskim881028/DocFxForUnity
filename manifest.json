@@ -2,11 +2,11 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://hskim881028.github.io/DocFxForUnity/",
+        "baseUrl": "https://hskim881028.github.io/docfx-test/",
         "changefreq": "daily"
       }
     },
-    "baseUrl": "https://hskim881028.github.io/DocFxForUnity/",
+    "baseUrl": "https://hskim881028.github.io/docfx-test/",
     "changefreq": "weekly"
   },
   "homepages": [],
