@@ -1,4 +1,4 @@
 ---
-uid: DocFxForUnity
-summary: DocFX usage example for Unity projects.
+uid: hskim!
+summary: DocFX usage example for hskim.
 ---

@@ -4,7 +4,7 @@ using UnityEngine;
 namespace DocFxForUnity
 {
     /// <summary>
-    /// The player of the game.
+    /// The player of the game~~~~~~.
     /// </summary>
     public class Player : MonoBehaviour
     {
