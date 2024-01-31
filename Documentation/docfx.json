@@ -52,9 +52,6 @@
                 "src": "..",
                 "files": [
                     "com.planetarium.v8.ui/**/*.md"
-                ],
-                "exclude": [
-                    "com.planetarium.v8.ui/Tests/**"
                 ]
             }
         ],
