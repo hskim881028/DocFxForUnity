@@ -1,4 +1,4 @@
-# com.planetarium.v8.ui
+# Verse 8 UI
 
 ## Overview
 [com.planetarium.v8.ui](https://github.com/planetarium/com.planetarium.v8.ui) is a custom UI package for Unity, designed to facilitate the efficient creation and management of user interfaces in Unity games. This package enables developers to dynamically construct UIs within Unity, using JSON metadata as a blueprint. It's tailored for game developers seeking a streamlined and flexible approach to UI development.
@@ -29,10 +29,10 @@ To install the [com.planetarium.v8.ui](https://github.com/planetarium/com.planet
 
 1. Open the Unity Editor and go to Window > Package Manager.
 2. In the Package Manager window, click the + button and select `Install package from git URL`.
-3. Enter the following URL and click `Add` to add the package:
-```
-https://github.com/planetarium/com.planetarium.v8.ui.git#development?path=com.planetarium.v8.ui
-```
+3. Enter the following URL and click `Add` to add the package
+    ```
+    https://github.com/planetarium/com.planetarium.v8.ui.git#development?path=com.planetarium.v8.ui
+    ```
 4. Once added, the package will be displayed in the Package Manager of your Unity Editor.
 
 This method allows you to directly install the [com.planetarium.v8.ui](https://github.com/planetarium/com.planetarium.v8.ui) package in your Unity project, making it easier to manage and update the package.

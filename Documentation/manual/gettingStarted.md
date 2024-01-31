@@ -1,1 +1,1 @@
-# Getting started with com.planetarium.v8.ui
+# Getting started with Verse 8 UI
