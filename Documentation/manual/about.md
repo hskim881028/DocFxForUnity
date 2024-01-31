@@ -1,4 +1,4 @@
-# Verse 8 UI
+# com.planetarium.v8.ui
 
 ## Overview
 [com.planetarium.v8.ui](https://github.com/planetarium/com.planetarium.v8.ui) is a custom UI package for Unity, designed to facilitate the efficient creation and management of user interfaces in Unity games. This package enables developers to dynamically construct UIs within Unity, using JSON metadata as a blueprint. It's tailored for game developers seeking a streamlined and flexible approach to UI development.

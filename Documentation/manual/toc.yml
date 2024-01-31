@@ -1,4 +1,4 @@
-- name: About Verse 8 UI
+- name: About com.planetarium.v8.ui
   href: about.md
 - name: Getting Started
   href: gettingStarted.md

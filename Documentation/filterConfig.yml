@@ -11,9 +11,6 @@ apiRules:
 - include:
     uidRegex: ^V8.UI
     type: Namespace
-- include:
-    property:
-        isInternal: true
 - exclude:
     uidRegex: .*
     type: Namespace

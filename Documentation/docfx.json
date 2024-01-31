@@ -19,8 +19,8 @@
     ],
     "build": {
         "globalMetadata": {
-            "_appTitle": "Verse 8 UI documentation",
-            "_appFooter": "Verse 8 UI documentation",
+            "_appTitle": "com.planetarium.v8.ui documentation",
+            "_appFooter": "com.planetarium.v8.ui documentation",
             "_appLogoPath": "resources/logo.svg",
             "_enableSearch": true
         },
