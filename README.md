@@ -36,7 +36,7 @@ To install the [com.planetarium.v8.ui](https://github.com/planetarium/com.planet
 This method allows you to directly install the [com.planetarium.v8.ui](https://github.com/planetarium/com.planetarium.v8.ui) package in your Unity project, making it easier to manage and update the package.
 
 ## Requirements
-This version of Unity NetCode is compatible with the following versions of the Unity Editor:
+This version of [com.planetarium.v8.ui](https://github.com/planetarium/com.planetarium.v8.ui) is compatible with the following versions of the Unity Editor:
 - 2023.2.4 and later (recommended)
 
 This package is based on [Unity UI](https://docs.unity3d.com/kr/2023.2/Manual/com.unity.ugui.html). Therefore, to use this package, you need to have knowledge of **Unity UI**.
