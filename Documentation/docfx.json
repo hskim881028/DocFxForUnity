@@ -12,7 +12,7 @@
                     ]
                 }
             ],
-            "globalNamespaceId": "Global",
+            "globalNamespaceId": "V8.UI",
             "filter": "filterConfig.yml",
             "dest": "api"
         }

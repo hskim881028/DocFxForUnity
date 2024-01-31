@@ -1,9 +1,15 @@
 apiRules:
 - include:
-    uidRegex: ^DocFxForUnity
+    uidRegex: ^V8.UI.Elements
     type: Namespace
 - include:
-    uidRegex: ^Global
+    uidRegex: ^V8.UI.Configuration
+    type: Namespace
+- include:
+    uidRegex: ^V8.UI.Runtime
+    type: Namespace
+- include:
+    uidRegex: ^V8.UI
     type: Namespace
 - exclude:
     uidRegex: .*
