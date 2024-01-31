@@ -15,7 +15,7 @@ To get started with **com.planetarium.v8.ui**:
 
 ## Development
 This repository is organized into multiple components:
-```text
+```
     .
     ├── com.planetarium.v8.ui        # The core UI SDK unity package (source + tests)
     ├── v8.ui.test                   # Unity Test Scenes and the UIViewer for JSON UI design preview.

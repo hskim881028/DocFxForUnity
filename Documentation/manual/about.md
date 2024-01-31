@@ -30,7 +30,7 @@ To install the [com.planetarium.v8.ui](https://github.com/planetarium/com.planet
 1. Open the Unity Editor and go to Window > Package Manager.
 2. In the Package Manager window, click the + button and select `Install package from git URL`.
 3. Enter the following URL and click `Add` to add the package:
-```text
+```
 https://github.com/planetarium/com.planetarium.v8.ui.git#development?path=com.planetarium.v8.ui
 ```
 4. Once added, the package will be displayed in the Package Manager of your Unity Editor.
