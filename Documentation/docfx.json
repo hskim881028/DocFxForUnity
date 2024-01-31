@@ -71,8 +71,7 @@
                 }
             }
         },
-        "xref": [
-            "https://hskim881028.github.io/DocFxForUnity/xrefmap.yml"
+        "xref": [           
         ],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
