@@ -21,7 +21,7 @@
         "globalMetadata": {
             "_appTitle": "Example Unity documentation",
             "_appFooter": "Example Unity documentation",
-            "_appLogoPath": "Assets/Images/logo.png",
+            "_appLogoPath": "Assets/Images/logo.png",            
             "_enableSearch": true
         },
         "content": [
@@ -58,6 +58,7 @@
         "resource": [
             {
                 "files": [
+                    "Assets/Images/*",
                     "resources/**/*"
                 ]
             }
