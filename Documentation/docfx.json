@@ -47,11 +47,7 @@
                 "dest": "manual"
             }
         ],
-        "overwrite": [
-            {
-                "src": "..",
-                "files": []
-            }
+        "overwrite": [         
         ],
         "resource": [
             {
@@ -69,7 +65,9 @@
                 }
             }
         },
-        "xref": [],
+        "xref": [
+            "https://hskim881028.github.io/UnityXrefMaps/xrefmap.yml"
+        ],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
         ],
