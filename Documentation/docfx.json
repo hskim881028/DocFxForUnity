@@ -66,7 +66,7 @@
             }
         },
         "xref": [
-            "https://hskim881028.github.io/UnityXrefMaps/xrefmap.yml"
+            "https://hskim881028.github.io/DocFxForUnity/xrefmap.yml"
         ],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
