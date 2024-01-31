@@ -1,0 +1,11 @@
+{
+    "name": "com.planetarium.v8.ui",
+    "displayName": "UI for Verse8",
+    "description": "Construct a UI as a GameObject in Unity using JSON metadata.",
+    "version": "0.0.1",
+    "unity": "2023.2",
+    "author": {
+        "name": "Planetarium"
+    },
+    "dependencies": {}
+}

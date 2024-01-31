@@ -5,10 +5,10 @@
                 {
                     "src": "..",
                     "files": [
-                        "Assets/**/*.cs"
+                        "com.planetarium.v8.ui/**/*.cs"
                     ],
                     "exclude": [
-                        "Assets/Plugins/**"
+                        "com.planetarium.v8.ui/Tests/**"
                     ]
                 }
             ],
@@ -19,9 +19,9 @@
     ],
     "build": {
         "globalMetadata": {
-            "_appTitle": "Example Unity documentation",
-            "_appFooter": "Example Unity documentation",
-            "_appLogoPath": "resources/logo.svg",            
+            "_appTitle": "Verse 8 UI documentation",
+            "_appFooter": "Verse 8 UI documentation",
+            "_appLogoPath": "resources/logo.svg",
             "_enableSearch": true
         },
         "content": [
@@ -50,9 +50,7 @@
         "overwrite": [
             {
                 "src": "..",
-                "files": [
-                    "Assets/Scripts/**/*.md"
-                ]
+                "files": []
             }
         ],
         "resource": [
@@ -71,9 +69,7 @@
                 }
             }
         },
-        "xref": [
-            "https://hskim881028.github.io/UnityXrefMaps/xrefmap.yml"
-        ],
+        "xref": [],
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
         ],
