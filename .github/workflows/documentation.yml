@@ -35,7 +35,8 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: hskim881028/docfx-test
-          token: ${{ secrets.PAT }} # 여기서 PAT는 당신이 생성한 개인 접근 토큰
+          token: ${{ secrets.PAT }}
+          ref: gh-pages
 
       - name: Download site artifact
         uses: actions/download-artifact@v1
@@ -44,9 +45,13 @@ jobs:
 
       - name: Deploy to docfx-test Repository
         run: |
-          cp -r _site/* . # _site 폴더의 내용을 루트 디렉토리로 복사
           git config user.name github-actions
           git config user.email github-actions@github.com
+          # /docs 디렉토리가 이미 존재하는지 확인하고, 존재한다면 제거
+          rm -rf docs
+          mkdir docs
+          # 새 사이트 컨텐츠를 /docs 디렉토리로 복사
+          cp -r _site/* docs/
           git add .
-          git commit -m "Deploy DocFX Site"
-          git push
+          git commit -m "Deploy DocFX Site to /docs"
+          git push origin main
